@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096E51688FD34583C7373BF707FF819D /* ALTextInputBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F61FB34852C10DC05DBF5DDFF8AE01E /* ALTextInputBarDelegate.swift */; };
+		12328FC7793869E42266B8A2E846E562 /* ALKeyboardObservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A108F3A851ABA52575EB438187AE61CE /* ALKeyboardObservingView.swift */; };
+		1A4A98F57C37D237413E4CF334B631FF /* ALTextInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04160390BC26126769A6FEBBA9C6EE7 /* ALTextInputBar.swift */; };
+		2F6C12343656B6022795EC86E16E259C /* ALTextInputBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA00DFBDE0CCE6C2C7584FF17355FABB /* ALTextInputBar-dummy.m */; };
+		44A37F6B7923E517C9C340FEB3568A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4B18BAB62863372CC0CE5F4708517D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5ED67751A9F7FD44229D107646003B35 /* ALTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8771BEF40568EEEAAB873049216D46 /* ALTextView.swift */; };
+		92192642481209BC74A7EC731BAE7F02 /* ALTextInputBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE31E9405A0496004AFCF704C5E2312 /* ALTextInputBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C266D27BF0BD3E3640982A0C5E32C955 /* ALTextInputUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4D2A9E830242243BEED92AF0FAA0A6 /* ALTextInputUtilities.swift */; };
+		CD7E9DD94AB63C328C8EB78CD4E3A1B8 /* Pods-TestingNMessenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B17557C04BA870F71807AC07B42FD9B /* Pods-TestingNMessenger-dummy.m */; };
+		F0067362567F21CC45161A346CDCFA17 /* Pods-TestingNMessenger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2E1DE9CBF2823CA093031B86502B94 /* Pods-TestingNMessenger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314FD3586A97C384CF5DE8642329AD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E49CAB1E94D750D1376CF1811A64DF;
+			remoteInfo = ALTextInputBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090CBD354974C2ED0B5A51E0CCFC612E /* ALTextInputBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALTextInputBar-prefix.pch"; sourceTree = "<group>"; };
+		284176FC0EE8FAEAF775EAB86CCF1304 /* Pods-TestingNMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingNMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		2A4D2A9E830242243BEED92AF0FAA0A6 /* ALTextInputUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextInputUtilities.swift; path = ALTextInputBar/ALTextInputUtilities.swift; sourceTree = "<group>"; };
+		2B17557C04BA870F71807AC07B42FD9B /* Pods-TestingNMessenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingNMessenger-dummy.m"; sourceTree = "<group>"; };
+		408E43C7ED774DE29FBD1DC75B03610A /* ALTextInputBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ALTextInputBar.modulemap; sourceTree = "<group>"; };
+		41C65E83AE3A51F32B97D198245A4D46 /* ALTextInputBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALTextInputBar.xcconfig; sourceTree = "<group>"; };
+		42D0EF004742724962FF7EE834A44697 /* Pods-TestingNMessenger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingNMessenger-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B972860FBD756E803E33F5A01EFA9DD /* Pods-TestingNMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingNMessenger.release.xcconfig"; sourceTree = "<group>"; };
+		4F61FB34852C10DC05DBF5DDFF8AE01E /* ALTextInputBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextInputBarDelegate.swift; path = ALTextInputBar/ALTextInputBarDelegate.swift; sourceTree = "<group>"; };
+		6D8D07BC5DB4BCC71BE9E40B1C3C97C2 /* Pods-TestingNMessenger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TestingNMessenger.modulemap"; sourceTree = "<group>"; };
+		7A8771BEF40568EEEAAB873049216D46 /* ALTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextView.swift; path = ALTextInputBar/ALTextView.swift; sourceTree = "<group>"; };
+		7CFE4991286E6B1ECF712711C6418B5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2E1DE9CBF2823CA093031B86502B94 /* Pods-TestingNMessenger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingNMessenger-umbrella.h"; sourceTree = "<group>"; };
+		8C7D009D13114D4A2E3E73496CE7E71B /* Pods-TestingNMessenger-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestingNMessenger-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955AB135888385C2BFD2435873418F94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7B768545997D3F82457CAE1148DC39 /* ALTextInputBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALTextInputBar.framework; path = ALTextInputBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A108F3A851ABA52575EB438187AE61CE /* ALKeyboardObservingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALKeyboardObservingView.swift; path = ALTextInputBar/ALKeyboardObservingView.swift; sourceTree = "<group>"; };
+		ADE31E9405A0496004AFCF704C5E2312 /* ALTextInputBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALTextInputBar-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EA00DFBDE0CCE6C2C7584FF17355FABB /* ALTextInputBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALTextInputBar-dummy.m"; sourceTree = "<group>"; };
+		EBA625B7C4FCA0ABCF4B585CDDE97F8C /* Pods-TestingNMessenger-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestingNMessenger-frameworks.sh"; sourceTree = "<group>"; };
+		EFF415832B2C98655CA04FD89AAAEEFF /* Pods-TestingNMessenger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingNMessenger-acknowledgements.plist"; sourceTree = "<group>"; };
+		F04160390BC26126769A6FEBBA9C6EE7 /* ALTextInputBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextInputBar.swift; path = ALTextInputBar/ALTextInputBar.swift; sourceTree = "<group>"; };
+		F610C4EEA8BF6A9209A0201F21F95476 /* Pods_TestingNMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestingNMessenger.framework; path = "Pods-TestingNMessenger.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74039B064CE8B7AE4FC8E323ECEAE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A37F6B7923E517C9C340FEB3568A26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23B4CF3C8173BDECC84A8EEEC568B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18BAB62863372CC0CE5F4708517D96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7A5FBBB440409D61E3FFDF7F4E25AF /* Pods-TestingNMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				7CFE4991286E6B1ECF712711C6418B5B /* Info.plist */,
+				6D8D07BC5DB4BCC71BE9E40B1C3C97C2 /* Pods-TestingNMessenger.modulemap */,
+				42D0EF004742724962FF7EE834A44697 /* Pods-TestingNMessenger-acknowledgements.markdown */,
+				EFF415832B2C98655CA04FD89AAAEEFF /* Pods-TestingNMessenger-acknowledgements.plist */,
+				2B17557C04BA870F71807AC07B42FD9B /* Pods-TestingNMessenger-dummy.m */,
+				EBA625B7C4FCA0ABCF4B585CDDE97F8C /* Pods-TestingNMessenger-frameworks.sh */,
+				8C7D009D13114D4A2E3E73496CE7E71B /* Pods-TestingNMessenger-resources.sh */,
+				7D2E1DE9CBF2823CA093031B86502B94 /* Pods-TestingNMessenger-umbrella.h */,
+				284176FC0EE8FAEAF775EAB86CCF1304 /* Pods-TestingNMessenger.debug.xcconfig */,
+				4B972860FBD756E803E33F5A01EFA9DD /* Pods-TestingNMessenger.release.xcconfig */,
+			);
+			name = "Pods-TestingNMessenger";
+			path = "Target Support Files/Pods-TestingNMessenger";
+			sourceTree = "<group>";
+		};
+		5C7DEC23023037DA3E585A5DB2CE8D3A /* ALTextInputBar */ = {
+			isa = PBXGroup;
+			children = (
+				A108F3A851ABA52575EB438187AE61CE /* ALKeyboardObservingView.swift */,
+				F04160390BC26126769A6FEBBA9C6EE7 /* ALTextInputBar.swift */,
+				4F61FB34852C10DC05DBF5DDFF8AE01E /* ALTextInputBarDelegate.swift */,
+				2A4D2A9E830242243BEED92AF0FAA0A6 /* ALTextInputUtilities.swift */,
+				7A8771BEF40568EEEAAB873049216D46 /* ALTextView.swift */,
+				9965AEE873CD9031B2F6D0526BA718B3 /* Support Files */,
+			);
+			name = ALTextInputBar;
+			path = ALTextInputBar;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EFDFE2D0C71C144144656B5EBAA8576B /* Pods */,
+				D12BD95C9F519D4099ADE55D07E112A9 /* Products */,
+				8CAEF8A2FE42D11CAF209B20855148BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAEF8A2FE42D11CAF209B20855148BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A5FBBB440409D61E3FFDF7F4E25AF /* Pods-TestingNMessenger */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9965AEE873CD9031B2F6D0526BA718B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				408E43C7ED774DE29FBD1DC75B03610A /* ALTextInputBar.modulemap */,
+				41C65E83AE3A51F32B97D198245A4D46 /* ALTextInputBar.xcconfig */,
+				EA00DFBDE0CCE6C2C7584FF17355FABB /* ALTextInputBar-dummy.m */,
+				090CBD354974C2ED0B5A51E0CCFC612E /* ALTextInputBar-prefix.pch */,
+				ADE31E9405A0496004AFCF704C5E2312 /* ALTextInputBar-umbrella.h */,
+				955AB135888385C2BFD2435873418F94 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALTextInputBar";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D12BD95C9F519D4099ADE55D07E112A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B768545997D3F82457CAE1148DC39 /* ALTextInputBar.framework */,
+				F610C4EEA8BF6A9209A0201F21F95476 /* Pods_TestingNMessenger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDFE2D0C71C144144656B5EBAA8576B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DEC23023037DA3E585A5DB2CE8D3A /* ALTextInputBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17DC766302582EF72A8762B93CACBBDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0067362567F21CC45161A346CDCFA17 /* Pods-TestingNMessenger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770682F987B64D6C81DC89345EDFA311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92192642481209BC74A7EC731BAE7F02 /* ALTextInputBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49E49CAB1E94D750D1376CF1811A64DF /* ALTextInputBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9791C819583702E93C59242B2DE4D01D /* Build configuration list for PBXNativeTarget "ALTextInputBar" */;
+			buildPhases = (
+				58F30D4F756EC7D8C97DAB330E7625DA /* Sources */,
+				C23B4CF3C8173BDECC84A8EEEC568B15 /* Frameworks */,
+				770682F987B64D6C81DC89345EDFA311 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALTextInputBar;
+			productName = ALTextInputBar;
+			productReference = 9C7B768545997D3F82457CAE1148DC39 /* ALTextInputBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D40E9D2F4DBBA1D9103E5B9AD498506D /* Pods-TestingNMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25ADBA72A0058A22EBC82CDE264448BD /* Build configuration list for PBXNativeTarget "Pods-TestingNMessenger" */;
+			buildPhases = (
+				EAB6098C9EB7FA167C08613058E2A1E7 /* Sources */,
+				A74039B064CE8B7AE4FC8E323ECEAE50 /* Frameworks */,
+				17DC766302582EF72A8762B93CACBBDB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AA49C276D5B50A836940B3954527F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestingNMessenger";
+			productName = "Pods-TestingNMessenger";
+			productReference = F610C4EEA8BF6A9209A0201F21F95476 /* Pods_TestingNMessenger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D12BD95C9F519D4099ADE55D07E112A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E49CAB1E94D750D1376CF1811A64DF /* ALTextInputBar */,
+				D40E9D2F4DBBA1D9103E5B9AD498506D /* Pods-TestingNMessenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F30D4F756EC7D8C97DAB330E7625DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12328FC7793869E42266B8A2E846E562 /* ALKeyboardObservingView.swift in Sources */,
+				2F6C12343656B6022795EC86E16E259C /* ALTextInputBar-dummy.m in Sources */,
+				1A4A98F57C37D237413E4CF334B631FF /* ALTextInputBar.swift in Sources */,
+				096E51688FD34583C7373BF707FF819D /* ALTextInputBarDelegate.swift in Sources */,
+				C266D27BF0BD3E3640982A0C5E32C955 /* ALTextInputUtilities.swift in Sources */,
+				5ED67751A9F7FD44229D107646003B35 /* ALTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB6098C9EB7FA167C08613058E2A1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7E9DD94AB63C328C8EB78CD4E3A1B8 /* Pods-TestingNMessenger-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54AA49C276D5B50A836940B3954527F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALTextInputBar;
+			target = 49E49CAB1E94D750D1376CF1811A64DF /* ALTextInputBar */;
+			targetProxy = 314FD3586A97C384CF5DE8642329AD76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E746C6601317578BB4F21CF5861ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284176FC0EE8FAEAF775EAB86CCF1304 /* Pods-TestingNMessenger.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingNMessenger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingNMessenger/Pods-TestingNMessenger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestingNMessenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3437C68EE97D69554163156113ABA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B972860FBD756E803E33F5A01EFA9DD /* Pods-TestingNMessenger.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingNMessenger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingNMessenger/Pods-TestingNMessenger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestingNMessenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		535FB98F2B86ABAFBA66FC9A48E07F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C65E83AE3A51F32B97D198245A4D46 /* ALTextInputBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALTextInputBar/ALTextInputBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALTextInputBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALTextInputBar/ALTextInputBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALTextInputBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE94B16C0E81CA680AC0C25BA03AA049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C65E83AE3A51F32B97D198245A4D46 /* ALTextInputBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALTextInputBar/ALTextInputBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALTextInputBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALTextInputBar/ALTextInputBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALTextInputBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25ADBA72A0058A22EBC82CDE264448BD /* Build configuration list for PBXNativeTarget "Pods-TestingNMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E746C6601317578BB4F21CF5861ABA /* Debug */,
+				3437C68EE97D69554163156113ABA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9791C819583702E93C59242B2DE4D01D /* Build configuration list for PBXNativeTarget "ALTextInputBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE94B16C0E81CA680AC0C25BA03AA049 /* Debug */,
+				535FB98F2B86ABAFBA66FC9A48E07F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
