@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tableView: UITableView!
     let rightButton = UIButton()
     let charLimit = UILabel()
-    let limit = 100
+    let limit = 200
     
     let textInputBar = ALTextInputBar()
     
@@ -31,7 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     // Another ingredient in the magic sauce
     override var canBecomeFirstResponder: Bool {
-        return true
+        return false
     }
     
     func textViewDidChange(textView: ALTextView) {
@@ -52,9 +52,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     var messages: [Message] = [
-        Message.init(username: "Sahbi", message: "Testing.. first message"),
-        Message.init(username: "Mohamed", message: "Testing.. second message"),
-        Message.init(username: "Maram", message: "Testing.. third message")
+        Message.init(username: "User 1", message: "Testing.. first message"),
+        Message.init(username: "User 2", message: "Testing.. second message"),
+        Message.init(username: "User 3", message: "Testing.. third message")
     ]
     
     override func viewDidLoad() {
@@ -98,7 +98,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         print("in dismissKeyboard")
         textInputBar.textView.resignFirstResponder()
         self.view.endEditing(true)
-        let msg = Message.init(username: "Ahmed", message: textInputBar.text)
+        let msg = Message.init(username: "User X", message: textInputBar.text)
         textInputBar.text = ""
         messages.append(msg)
         tableView.reloadData()
